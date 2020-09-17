@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/crimeTitle" />
 
     <Button
-        android:id="@+id/crimeDate"
+        android:id="@+id/crimeDateButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/crime_solved_label"
-        app:layout_constraintStart_toStartOf="@+id/crimeDate"
-        app:layout_constraintTop_toBottomOf="@+id/crimeDate" />
+        app:layout_constraintStart_toStartOf="@+id/crimeDateButton"
+        app:layout_constraintTop_toBottomOf="@+id/crimeDateButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
